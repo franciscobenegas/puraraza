@@ -1,5 +1,7 @@
 import {API_URL} from '../utils/constants';
 
+// API Clasificaicones
+
 export async function getCalsificacionApi(auth){
     try {
         const url = `${API_URL}/clasificacions?usuario=${auth.idUser}`;
